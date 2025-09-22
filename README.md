@@ -18,3 +18,19 @@ A simple RESTful API built with Flask and SQLAlchemy to manage employees.
 ```bash
 pip install -r requirements.txt
 python app.py
+
+
+**##How to Test**
+Run the app → python app.py
+
+Use Postman:
+
+POST /employees → Add new employee
+
+GET /employees → Get all employees
+
+GET /employees/1 → Get employee by ID
+
+PUT /employees/1 → Update employee
+
+DELETE /employees/1 → Delete employee
